@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:o='urn:schemas-microsoft-com:office:office'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <meta name='x-apple-disable-message-reformatting'>
+    <title></title>
+    <!--[if mso]> 
+        <noscript>
+            <xml>
+                <o:OfficeDocumentSettings>
+                    <o:PixelsPerInch>96</o:PixelsPerInch>
+                </o:OfficeDocumentSettings>
+            </xml>
+        </noscript>
+        <![endif]-->
+</head>
+
+<body style='
+        color:black;
+        padding: 1%;
+        letter-spacing: 0.5px;
+        font-style: normal;'>
+    <div style='max-width :695px;border: 2px solid #E8E8E8;'>
+        <div
+            style='font-family: Helvetica;background: rgb(254,239,156);
+background: linear-gradient(122deg, rgba(254,239,156,0.4220281862745098) 14%, rgba(255,224,224,0.7217480742296919) 52%, rgba(224,171,244,0.6265099789915967) 96%, rgba(233,217,231,0.33239233193277307) 100%);padding: 0.5%;margin: 10px 10px 0px 10px;text-align:center;'>
+            <table width="100%">
+                <tbody>
+                    <tr>
+                        <td style='text-align:left;padding:2rem 0 0 2rem;'>
+                            <img src="https://d27fso36p4utwy.cloudfront.net/mettle/employee_profile_img/juspay.png"
+                                height='25' width='120' />
+                        </td>
+                        <td style='text-align:right;padding:2rem 3rem 0 0;'>
+                            <img src="https://d27fso36p4utwy.cloudfront.net/mettle/employee_profile_img/mettle.png"
+                                height='24' width='120' style='margin-left:1.5rem' />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style='text-align:left;padding:0 20px 0px 35px;font-size:28.5px;font-weight:600;color:black;'>
+                Hey ${name},
+                <br>
+                <span style='text-align:left;padding:0 15px 2px 0;font-size:20.5px;font-weight:400;color:black;'><span
+                        style='color:black;text-overflow:none;'>Just in: You've been added as an </span><span
+                        style='font-weight:600;color:black'>anchor</span> <span style='color:black;'>for our OKR on
+                    </span><br>
+                    <b style='word-wrap:break-word;color:black;'>"${objective}"</b>
+                </span>
+            </p>
+        </div>
+        <div
+            style='font-family: Helvetica;text-align:left;background-color:white;border-radius:1rem;word-wrap:break-word;margin:1.5rem 0 0 3.5rem;font-size:20.5px;font-weight:550;color:black;'>
+            Here's what we are aiming to achieve:
+        </div>
+        <ul style='color:blue;margin-left:0;color:black;'>
+            <li><span
+                    style='font-family: Helvetica;font-size:16px;color:black;margin-left:1.1rem;font-weight:400;color:black;'>${keyResult}</span>
+            </li>
+        </ul>
+        <div
+            style='font-family:Helvetica;text-align:left;background-color:white;word-wrap:break-word;margin:1.5rem 0 0 3.5rem;font-size:20px;font-weight:550;color:black;'>
+            Collaborating with:
+        </div>
+        <ul style='font-family:Helvetica;color:blue;margin-left:0;'>
+            <li>
+                <div style='width:640px;font-size:16px;font-weight:400;'>
+                    <div style='color:black;margin-left:1.1rem;font-size:16px;font-weight:400;float:left;float:left;'>
+                        Anchors:
+                    </div>
+                    <div
+                        style='color:black;margin-left:5.5rem;margin-bottom:0px;word-wrap:break-word;font-size:16px;font-weight:400;'>
+                        ${anchors}
+                    </div>
+                </div>
+            </li>
+            <br>
+            <li>
+                <div style='width:640px;'>
+                    <div style='color:black;margin-left:1.1rem;font-size:16px;font-weight:400;float:left;float:left;'>
+                        Contributors:
+                    </div>
+                    <div style='color:black;margin-left:7.5rem;word-wrap:break;font-size:16px;font-weight:400;'>
+                        ${contributors}
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <hr style='width:40rem;'>
+        <p
+            style='font-family:Helvetica;text-align:left;padding:1px 5px 20px 5px;color:black;margin:1.5rem 2rem 0rem 3rem; font-size:15.5px;'>
+            Ready to dive in? Check out our game plan, plot your path forward and keep tabs on the progress by clicking
+            on Mettle link below.<br><br> <br>
+
+            Best,<br>
+            ${createdBy}
+        </p>
+        <div style='margin:2rem 0rem 3rem 0rem;text-align:center;'><a
+                style='text-decoration: none;color:white;background-color:#1B85FF;padding:1rem 1rem 1rem 1.2rem;border-radius:0.5rem;font-family:Helvetica;font-size:16px;'
+                href='${okrLink}'>View in Mettle</a></div>
+    </div>
+</body>
+
+</html>
